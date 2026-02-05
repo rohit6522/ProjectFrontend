@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  height: 100vh;
+  background-color: rgb(211, 211, 232);
+}
+
+.container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.left{
+  max-width: 400px;
+}
+
+.left h1{
+  color: blue;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.left p{
+  font-size: 20px;
+}
+
+.right .main{
+  background-color: white;
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.main h2{
+  margin-bottom: 15px;
+}
+
+form input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.btn{
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+a{
+  display: block;
+  margin: 15px 0;
+  color: blue;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+hr{
+  margin: 15px 0;
+}
+
+.btn1{
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* hover  */
+.btn:hover{
+  background-color: darkblue;
+}
+
+.btn1:hover{
+  background-color: darkgreen;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+form input:focus{
+  outline: none;
+  border: 2px solid blue;
+}
+
+.main:hover{
+  transform: scale(1.02);
+  transition: 0.3s;
+}

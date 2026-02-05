@@ -1,0 +1,68 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* background-color: #ffffff4a; */
+}
+/* 
+.main{
+    position: relative;
+    background-color: crimson;
+}
+
+.relative {
+    background-color: gainsboro;
+    padding: 10px;
+    left: 40px;
+    top: 40px;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    background-color: gray;
+    padding: 10px;
+}
+.fixed{
+    background-color: rgb(55, 49, 49);
+    padding: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+} */
+
+/* end positioning  */
+
+
+
+
+
+/* dsiplay properties start */
+
+.display1 span{
+    background-color: blue;
+    margin: 20px;
+    padding: 20px;
+    color: crimson;
+}
+.block{
+    display: block;
+
+}
+.inline{
+    display: inline;
+}
+
+.inline-block{
+    display: inline-block;
+    width: 400px;
+}

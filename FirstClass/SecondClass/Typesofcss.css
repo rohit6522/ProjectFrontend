@@ -1,0 +1,58 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  font-family: sans-serif;
+}
+
+
+/* --------------------selectors in CSS------------------------  */
+/* 1. uiversal selector(*)  */
+
+*{
+  margin:0%;
+  padding:0%;
+  box-sizing:border-box;
+}
+
+/* element selector(h1, p, div) */
+
+h1{
+  color: teal;
+  
+}
+
+/* class selector(.class) */
+.a{
+  color: purple;
+}
+
+/* id selector(#id) */
+
+#id1{
+  color: aquamarine;
+}
+
+/* group selector  */
+h4,h5,h6{
+  font-family: sans-serif;
+  color: red;
+}
+
+/* // Atribute Selector */
+input[type="text"]{
+  border:2px solid black;
+  padding:5px;
+  background-color: orange;
+}
+
+
+/* psuedo class selector */
+
+.a:hover{
+  transition: ease-in-out 0.2s;
+  font-size: 25px;
+  color: lavender;
+  background-color: greenyellow;
+}
+

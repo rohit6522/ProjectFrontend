@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Class</title>
+    <link rel="shortcut icon" href="Picture1.png" type="image/x-icon">
+
+    <style>
+        * {
+            background-color: wheat;
+        }
+
+        h1 {
+            color: red;
+            background-color: gainsboro;
+            border-radius: 20px;
+            text-align: center;
+            width: 100%;
+            padding: 10px 10px 10px;
+
+        }
+
+        h1:hover {
+            color: blueviolet;
+            transition: all 0.5s ease-in;
+            font-size: 50px;
+            font-family: Arial, sans-serif;
+
+        }
+
+        .form {
+            /* margin-left: 30%; */
+            
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <a href="SecondClass/TypesOfCss.html">Go to Next Experiment</a>
+    <!-- this is mar tag slider headline  -->
+    <h1>
+        <marquee behavior="" direction="">Hello Mr. Rohit How Was The Day Today??</marquee>
+    </h1>
+    <!-- this is paragraph  -->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, eum?</p>
+
+    <strong>Strong Man</strong> <br>
+    <i>This is italic</i> <br>
+    <em>Emphasis</em> <br>
+    <!-- this is square type write  -->
+    H<sub>2</sub>O <br>
+
+    a<sup>2</sup> + b <sup>2</sup> <br>
+
+    <img src="linkedin.png" alt="linkedin" height="30px" width="30px">
+    <a href="https://www.linkedin.com/in/rohit-kumar-382948324/">linkedin Link</a> <br>
+
+    <a href="SecondFile.html">Go to Second file</a>
+
+    <!-- type of list  -->
+    <!--  1. Unordered list -->
+    <!--  2. Ordered list -->
+    <!--  3. Description list -->
+
+    <!-- 1 -->
+    <ul type="circle">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ul>
+    <!-- 2 -->
+    <ol type="I">
+        <li>Fruits</li>
+        <ol start="1">
+            <li>Mango</li>
+            <li>Banana</li>
+        </ol>
+
+        <li>Veg</li>
+        <ol start="1">
+            <li>Potato</li>
+            <li>Tomato</li>
+        </ol>
+        <li>Non-Veg</li>
+        <ol start="1">
+            <li>Chicken</li>
+            <li>Mutton</li>
+        </ol>
+    </ol>
+
+
+    <!-- Description -->
+    <dd>
+        <!-- description title or name -->
+    <dt>Html And Css</dt>
+    <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, earum molestias. Qui minima eos magnam!</dd>
+    </dd>
+    <!-- Table  -->
+    <table border="2px">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll No.</th>
+                <th>Reg. No</th>
+                <th>Marks</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Raj</td>
+                <td>1</td>
+                <td>12345</td>
+                <td>85</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Ajju</td>
+                <td>2</td>
+                <td>12346</td>
+                <td>85</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Anuj</td>
+                <td>3</td>
+                <td>12345</td>
+                <td>85</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Rohit</td>
+                <td>4</td>
+                <td>12345</td>
+                <td>85</td>
+                <td>A</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <!-- Form  -->
+    <fieldset>
+        <legend>Personal Details</legend>
+        <div class="form">
+            <form action="" method="get">
+                <label for="name">Name :</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name"> <br> <br>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required> <br> <br>
+
+                <label for="password">Password :</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required> <br> <br>
+
+                <label for="dob">DOB :</label>
+                <input type="date" id="dob" name="dob"> <br> <br>
+
+                <label for="">Gender: </label>
+                <input type="" id="Gender" name="Gender" value="Male" >Male
+                <input type="radio" id="Gender" name="Gender" value="female">Female 
+                <input type="radio" id="Gender" name="Gender" value="Others">Others <br> <br>
+
+                <label for="">Courses: </label>
+                <input type="checkbox">HTML
+                <input type="checkbox">Math
+                <input type="checkbox">Java <br> <br>
+
+                <label for="">Country</label>
+                <select name="" id="">
+                    <option value="">India</option>
+                    <option value="">USA</option>
+                    <option value="">Nepal</option>
+                </select>
+                <br> <br>
+                <label for="">Uplaod Files </label>
+                <input type="file" accept=".pdf,.docx" maxlength="25mb"> <br> <br>
+
+                <label for="">Range </label>
+                <input type="range" min="0" max="100" value="50"> <br> <br>
+
+                <label for="bio">Feedback :</label>
+                <textarea id="bio" name="bio" cols="30" rows="5" placeholder="Write your feedback here">
+                </textarea> <br> <br>
+
+                <!-- multimedia element  -->
+                 <audio src="" controls>
+                    <source src="Shocked.wav" >
+                 </audio> <br> <br>
+                 <video src="" controls>
+                    <source src="video1.mp4" type="video/mp4">
+                 </video>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+
+        </div>
+    </fieldset>
+
+</body>
+
+</html>

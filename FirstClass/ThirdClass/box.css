@@ -1,0 +1,33 @@
+*{
+  margin:0%;
+  padding:0%;
+  box-sizing:border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+h2{
+    text-align: center;
+    color: powderblue;
+
+}
+
+.box{
+    width: 250px;
+    background: papayawhip;
+    border: 5px solid gold;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+@media (max-width: 300px) {
+    .box {
+        background: red;
+        font-family: sans-serif;
+        border-radius: 5px;
+    }
+}

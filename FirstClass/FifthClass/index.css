@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.gallery{
+    width: 400px;
+}
+
+#MainImg{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 25px;
+        
+
+}
+.thumbnails{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 12px;
+    
+
+}
+
+.thumbnails img{
+    width: 110px;
+    height: 50px;
+}

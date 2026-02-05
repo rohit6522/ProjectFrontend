@@ -1,0 +1,45 @@
+*{
+  margin:0%;
+  padding:0%;
+  box-sizing:border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+    padding: 60px;
+    font-size: 30px;
+    text-align: center;
+    color: goldenrod;
+
+}
+
+/* Desktop Devices  */
+
+.container{
+    background-color: green;
+
+}
+
+/* Mobile view  */
+
+@media(max-width:600px){
+    .container{
+        background-color: crimson;
+        font-size: 20px;
+    }
+}
+
+/* Tablet View  */
+
+@media(min-width:601px) and (max-width:1024px){
+    .container{
+        background-color: rgb(222, 250, 43);
+        font-size: 15px;
+        color: black;
+    }
+}
+
