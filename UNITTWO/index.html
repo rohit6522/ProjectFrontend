@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types-Of-JS</title>
+    <!-- <script src="index.js"></script> -->
+</head>
+
+<body>
+    <h2>Types of JS</h2>
+    <!-- 1. Inline JavaScript  -->
+    <button onclick="alert('Hello jS')">Click Me</button>
+
+    <!-- 2. Internal JavaScript -->
+    <button onclick="cli()">Btn</button>
+
+    <!-- 3. External JavaScript  -->
+    <button onclick="func()">Submit</button>
+
+    <button onclick="arith()">Addition</button>
+
+
+    <script>
+ 
+        function arith(){
+            let a = prompt("Enter a number: ")
+            let b = prompt("Enter a num")
+
+            a = Number(a)
+            b = Number(b);
+            let final = a+b;
+
+            console.log("Additon is :",final);
+            alert("Addition : -" ,final);
+
+        }
+        
+
+
+
+        // function cli() {
+        //     // alert("Enter a number")  
+        //     // prompt("Enter a num")
+        //     // confirm("Want to proceed")
+        // }
+    </script>
+
+
+</body>
+
+</html>

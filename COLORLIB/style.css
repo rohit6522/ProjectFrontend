@@ -1,0 +1,126 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    background-color: white;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.header img {
+    border-radius: 15px;
+
+}
+
+.header h1 {
+    color: black;
+    padding: 10px;
+    font: bold;
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+    margin-left: 45%;
+    list-style: none;
+}
+
+
+
+.header ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.header p {
+    color: white;
+    margin-left: 2rem;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+    font: bold;
+    font-weight: 500;
+}
+
+/* main  */
+
+main {
+    background-color: whitesmoke;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+}
+
+.middle {
+    padding: 150px;
+}
+
+.main1 p {
+    color: orangered;
+}
+
+.design h1 {
+    margin-top: 2rem;
+    font-size: 85px;
+}
+
+.p2 {
+    margin-top: 2rem;
+}
+
+.p2 p {
+    line-height: 28px;
+}
+
+.btnn {
+    display: flex;
+    margin-top: 2.5rem;
+    gap: 5px;
+}
+
+
+
+.btn2 a {
+    text-decoration: none;
+    border: 2px solid orangered;
+    color: white;
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 15px;
+    
+}
+
+.btn3 a {
+    border: 1px solid gray;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    
+}
+
+.pic img{
+    margin-top: 12rem;
+    width: 350px;
+    border-radius: 40% ;
+}

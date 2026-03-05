@@ -1,3 +1,8 @@
 1. git --version
 2. git init
 3. git add .
+4. git add (fileName)
+5. git commit -m "Any Text"
+6. git remote add origin ("github repo link)
+7. git branch -M main
+8. git push -u origin main --force

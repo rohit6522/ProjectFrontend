@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even</title>
+    <style>
+        #box{
+            background: red;
+            padding: 80px;
+            width: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>JavaScript Events</h1>
+
+    <!-- listener wait and respond  -->
+    <h1 id="heading">Hello , JS Events</h1>
+    <button id="btn">Change Text</button>
+
+    <!-- Click and Double click even -->
+    <button id="singleClick">Click</button>
+    <button id="doubleClick">Double - Click</button>
+
+    <!-- // Mouse Event -->
+    <div id="box">
+        Mouse Even
+    </div>
+
+    <input type="text" name="" id="keyboardEvent" placeholder="Type here">
+
+    <select name="" id="dropdown">
+        <option value="red">Green</option>
+        <option value="green">Red</option>
+        <option value="blue">Yellow</option>
+    </select>
+    <form action="" id="forms">
+        <input type="text">
+        <button type="submit">Submit</button>
+    </form>
+    <script>
+
+        // form event
+        document.getElementById("forms").addEventListener("submit",function(){
+            alert("form is submmited")
+        })
+        // change event
+        document.getElementById("dropdown").addEventListener("change",function(){
+            document.body.style.background=dropdown.value
+        })
+        
+        // Keyboard Event 
+        let input = document.getElementById("keyboardEvent")
+        input.addEventListener("keydown",function(){
+            console.log("KeyDown is: ",event.key)
+        })
+
+        input.addEventListener("keyup",function(){
+            console.log("Keyup is: ",event.key)
+        })
+        
+
+        
+        // mouse event 
+        let box = document.getElementById("box")
+        box.addEventListener("mouseover",function(){
+            box.style.background = "yellow"
+        })
+        box.addEventListener("mouseout",function(){
+            box.style.background = "wheat"
+        })
+
+        document.getElementById("singleClick").addEventListener("click", function () {
+            alert("Button is clicked by single click")
+        })
+
+        document.getElementById("doubleClick").addEventListener("dblclick", function () {
+            alert("Button is clicked by double click")
+        })
+
+        // access or select the element 
+        let heading = document.getElementById("heading")
+        let button = document.getElementById("btn")
+
+        // add the event 4
+        // button selected Element
+        // addEventListner - method
+        // click event name 
+        // function what to do 
+
+        button.addEventListener("click", function () {
+            heading.innerHTML = "Welcome to JS Events"
+        })
+
+    </script>
+</body>
+
+</html>

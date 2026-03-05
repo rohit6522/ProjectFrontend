@@ -1,0 +1,110 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+.main {
+    /* border: 1px solid rgb(32, 31, 31); */
+    border-radius: 25px;
+    /* height: 90%; */
+    width: 350px;
+    margin: 2rem auto;
+    /* margin-top: 2rem; */
+    overflow: hidden;
+}
+
+.head {
+    padding: 20px;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    gap: 1rem;
+    background: orangered;
+    /* border-radius: 25px 25px 0 0; */
+
+}
+
+.head h1 {
+    font-weight: bold;
+    color: white;
+    /* text-align: center;
+    align-items: center; */
+
+}
+
+.body1 {
+    padding: 30px;
+    background: black;
+    height: 33rem;
+    border-radius: 0 0 25px 25px;
+
+}
+
+.body1 h1 {
+    color: white;
+    font-weight: bold;
+    /* line-height: 3rem; */
+    margin-bottom: 10px ;
+    
+}
+
+.body1 p {
+    color: gray;
+    margin-bottom: 20px;
+    /* line-height: 3rem; */
+
+}
+.body1 a{
+    /* display: inline; */
+    display: flex;
+}
+
+label {
+    color: white;
+   /* line-height: 3rem; */
+   display: block;
+   margin-top: 15px;
+   margin-bottom: 5px;
+
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+    background: rgb(63, 61, 61);
+    height: 2rem;
+    border: none;
+    text-align: left;
+}
+
+
+button{
+    background: orangered;
+    color: white;
+    width: 100%;
+    border: none;
+    height: 2.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 8%;
+}
+
+
+footer{
+    display: flex;
+    margin-top: 10px;
+}
+span {
+    color: orange;
+
+
+    
+}
